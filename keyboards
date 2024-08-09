@@ -1,0 +1,8 @@
+from aiogram.types import InlineKeyboardMarkup, ReplyKeyboardMarkup, InlineKeyboardButton, KeyboardButton
+
+
+admin_keyboard = [
+    [
+        KeyboardButton(text='Привет, админ!')
+    ]
+]
